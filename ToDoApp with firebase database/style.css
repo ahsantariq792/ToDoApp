@@ -1,0 +1,93 @@
+
+body{
+    background-color: #9292d8 ;
+}
+
+h1{
+    background-color: rgb(255, 255, 6);
+    text-align: center;
+    color: green ;
+    font-family: cursive;
+    letter-spacing: 5px;
+}
+
+.container{
+    margin: 10% auto;
+    background-color: #3c3c66;
+    width: 550px;
+    height: fit-content;
+    min-height: 100px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    color:white;
+}
+
+ol{
+    margin-left: 10% ;
+}
+
+li button{
+    margin: 5px;
+    height: 25px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(79, 255, 246);
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+li button:first-child{
+    background-color: hotpink;
+    margin-left: 10%;
+}
+
+li button:hover{
+    background-color: rgb(221, 60, 20);
+}
+
+li{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#addbtn:hover, #deleteAllbtn:hover{
+    background-color: yellow;
+    color: red;
+    cursor: pointer;
+    transform: scale(1.09);
+}
+
+#addbtn, #deleteAllbtn {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin: 4px ;
+    font-size: 18px;
+    font-family: cursive;
+    color: white;
+}
+
+#addbtn {
+    background-color: rgb(85, 245, 85);
+}
+
+#deleteAllbtn{
+    background-color: red;
+}
+
+#main{
+    width: 280px;
+    height: 28px;
+    margin-right: 14px;
+    border-radius: 8px;
+    font-size: 22px;
+}
+
+#main:focus{
+    outline: none;
+}
